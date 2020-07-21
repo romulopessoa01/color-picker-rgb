@@ -1,0 +1,39 @@
+label {
+  font-size: 2rem;
+  font-family: 'IBM Plex Mono', monospace;
+}
+h1 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 2.6rem;
+  font-weight: bold;
+  line-height: 2;
+}
+
+p {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1rem;
+}
+
+.form-group {
+  line-height: 1.8;
+}
+
+.boxRgbColor {
+  border-radius: 10px;
+  height: 130px;
+}
+.resultado-rgb {
+  font-size: 3rem;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+@media only screen and (max-width: 600px) {
+  .boxRgbColor {
+    width: 90%;
+  }
+  .resultado-rgb {
+    font-size: 2rem !important;
+    top: 15px;
+    position: relative;
+  }
+}
